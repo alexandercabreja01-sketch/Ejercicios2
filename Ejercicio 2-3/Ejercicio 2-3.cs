@@ -64,7 +64,6 @@ class Ejercicio2
    
         var ordenada = lista.OrderBy(x => x.Apellido).ToList();
 
-        // Reporte
         Console.WriteLine("\n==========================================================");
         Console.WriteLine("Nombre\tApellido\tNota1\tNota2\tNota3\tNota4\tPromedio\tLiteral");
         Console.WriteLine("==========================================================");
